@@ -5,14 +5,15 @@ import { getDatabase } from "firebase/database";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBvO6nEqjmugENtbmF4OK6v-XCndfS71Ec",
-  authDomain: "mausooq-425ec.firebaseapp.com",
-  projectId: "mausooq-425ec",
-  storageBucket: "mausooq-425ec.appspot.com",
-  messagingSenderId: "298020524431",
-  appId: "1:298020524431:web:587b268e42e9c2203c3bfa",
-  measurementId: "G-PMD9VNDF36"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
+
 
 const app = initializeApp(firebaseConfig);
 
